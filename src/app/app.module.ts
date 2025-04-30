@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
+import { MatFormField, MatLabel } from '@angular/material/select';
 
 registerLocaleData(localeDECH);
 registerLocaleData(localeFRCH);
@@ -32,7 +33,9 @@ registerLocaleData(localeITCH);
     MatButtonModule,
     MatCardModule,
     MatIconModule,
-    ObExternalLinkModule
+    ObExternalLinkModule,
+    MatFormField,
+    MatLabel
   ],
   providers: [
     {provide: LOCALE_ID, useValue: 'de-CH'},
