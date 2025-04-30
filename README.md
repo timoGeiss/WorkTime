@@ -23,7 +23,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/worktime.git
+   git clone https://github.com/timoGeiss/WorkTime.git
 
 
 ## 📜 License
